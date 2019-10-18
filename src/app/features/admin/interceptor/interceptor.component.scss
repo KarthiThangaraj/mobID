@@ -196,3 +196,22 @@ box-shadow:0px 0px 3px rgba(0,0,0,0.3);
     }
   }
 }
+.dialog {
+  display: flex;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  p {
+    font-size: 20px;
+    margin: 25px;
+  }
+  img {
+    margin: 25px;
+  }
+  .org {
+    p {
+      margin-top: 50px;
+    }
+  }
+}

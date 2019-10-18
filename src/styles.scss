@@ -36,3 +36,8 @@ p {
 .progress-inner {
   border-radius: 0 !important;
 }
+.custom-modalbox {
+  .mat-dialog-container {
+    background: #931F2C !important;
+  }
+}
