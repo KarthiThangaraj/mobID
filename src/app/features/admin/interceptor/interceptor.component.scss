@@ -197,11 +197,11 @@ box-shadow:0px 0px 3px rgba(0,0,0,0.3);
   }
 }
 .dialog {
-  display: flex;
   display:flex;
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
+  margin-top: 40px;
   p {
     font-size: 20px;
     margin: 25px;
@@ -209,9 +209,35 @@ box-shadow:0px 0px 3px rgba(0,0,0,0.3);
   img {
     margin: 25px;
   }
+  .center-txt {
+    text-align: center;
+    p {
+      font-size: 25px;
+    }
+    h1 {
+      font-size: 60px;
+    }
+  }
   .org {
     p {
       margin-top: 50px;
     }
+  }
+}
+
+.shape-txt {
+  border-top: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+  width: 20%;
+  position: absolute;
+  top: 0px;
+  left: 43.5%;
+  p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -40px !important;
   }
 }

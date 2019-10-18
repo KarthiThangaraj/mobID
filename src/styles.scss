@@ -38,6 +38,8 @@ p {
 }
 .custom-modalbox {
   .mat-dialog-container {
-    background: #931F2C !important;
+    // background: #931F2C !important;
+    background: rgba(147, 31, 44, 0.9);
+    position: relative;
   }
 }
