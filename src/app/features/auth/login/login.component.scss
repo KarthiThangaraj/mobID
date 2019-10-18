@@ -1,0 +1,52 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    .flexLayout {
+        display: flex;
+        .flexRow {
+            .login {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .contentBox {
+                    width: 50%;
+                    margin-top: 150px;
+                }
+            }            
+            flex: 1 1;
+            // margin: 200px;
+            .sec1 {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            h2 {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 25px;
+            }
+            input {
+                border: none;
+                box-shadow: none;
+            }
+            .loginBtn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 40px;
+                button {
+                    border: 0;
+                    border-radius: 40px;
+                    background-color: #9816F4;
+                    width: 40%;
+                    height: 50px;
+                }
+            }
+        }
+        .loginImg {
+            img {
+                height: 100vh;
+                width: auto;
+            }
+        }
+    }
+}

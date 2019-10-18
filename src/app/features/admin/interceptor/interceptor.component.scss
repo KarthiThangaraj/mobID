@@ -1,0 +1,146 @@
+.interceptorCont{
+  background: #1c4a65; /* Old browsers */
+  background: -moz-linear-gradient(left,  #1c4a65 0%, #091926 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #1c4a65 0%,#091926 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #1c4a65 0%,#091926 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c4a65', endColorstr='#091926',GradientType=1 ); /* IE6-9 */
+
+  min-height:100vh;
+  padding:15px 20px;
+
+  .interceptIn{
+    margin-left:-6px;
+    margin-right:-6px;
+    display:flex;
+    .boxLeft{
+      padding-left:6px;
+      padding-right:6px;
+      flex:1 1;
+      .gBox{
+        background: #15384a; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  #15384a 0%, #37749a 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  #15384a 0%,#37749a 100%); /* Chrome10-25,Safari5.1-6 */
+     
+        border-radius:20px;
+        min-height:400px;
+        width:100%;
+        padding:20px;
+        display:flex;
+        .imgCont{
+          flex:1 1;
+          padding-left:20px;
+          .img{img{width:100%;}}
+
+          .thumbnailCont{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#234f6a+0,0d2836+100 */
+background: rgb(35,79,106); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(35,79,106,1) 0%, rgba(13,40,54,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(35,79,106,1) 0%,rgba(13,40,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
+
+box-shadow:0px 0px 3px rgba(0,0,0,0.3);
+
+            margin-top:15px;
+            border-radius:10px;
+            min-height:250px;
+            width:100%;
+            padding:8px 15px;
+
+            header{
+              display:flex;
+              justify-content: flex-end;
+              font-size:14px;
+              ul{
+                margin:0px;
+                padding:0px;
+                li{
+                  list-style-type:none;
+                  color:#1fb0be;
+                  display:inline-block;
+                  padding:3px 10px;
+                  span{
+                    color:#e89a08;
+                  }
+                  font-size:14px;
+                  font-weight:500;
+                  a{cursor:pointer;}
+                }
+              }
+            }
+
+            .thumbListBox{
+              background-color:#091320;
+              min-height:100px;
+              margin-top:5px;
+              border-radius:3px;
+              
+
+              display:flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              padding:6px;
+              .lists{
+                padding:5px;
+                .box{
+                  width:60px;
+                  height:75px;
+                  border:1px solid #1fb0be;
+                  border-radius:3px;
+                  overflow:hidden;
+                  a{cursor:pointer;}
+                  img{
+                    width:100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .lists{
+          h3{
+            font-style: italic;
+            font-size:16px;
+            font-weight:500;
+            display:flex;
+            align-items: center;
+          }
+          .taskLists{
+            width:170px;
+            min-height:500px;
+            background-color:#050608;
+            padding:15px;
+            border-radius:5px;
+            ul{
+              margin:0px;
+              padding:0px;
+              list-style-type: none;
+              li{
+                list-style-type: none;
+                font-size:12px;
+                color:#4888b0;
+                details{
+                  .dta{padding-left:13px; color:#FFFFFF;}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .boxRight{
+      padding-left:6px;
+      padding-right:6px;
+      width:40%;
+
+      .gBox{
+        background: #15384a; /* Old browsers */
+        background: -moz-linear-gradient(45deg,  #15384a 0%, #37749a 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(45deg,  #15384a 0%,#37749a 100%); /* Chrome10-25,Safari5.1-6 */
+       
+
+        border-radius:20px;
+        min-height:400px;
+        width:100%;
+      }
+    }
+  }
+}

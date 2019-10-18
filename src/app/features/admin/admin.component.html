@@ -1,0 +1,64 @@
+
+<section class="adminContainer">
+    <header class="header">
+      <div class="dFlex vCenter">
+        <div class="flexChild dFlex vCenter">
+          <a><img src="./assets/images/logo.png" /></a>
+        </div>
+        <div class="settings dFlex vCenter">
+          <a class="dFlex vCenter"><img src="./assets/images/settings.png" width="18"/> Settings</a>
+        </div>
+        <div class="settings profile dFlex vCenter">
+          <a class="dFlex vCenter"><img src="./assets/images/default.png" width="30"/> Jessica Margeta</a>
+        </div>
+      </div>
+
+      
+    </header>
+    <div class="mainCont">
+      <aside class="sidebar">
+        <div class="fixedBar">
+          <ul>
+            <li>
+              <a>
+                <img src="./assets/images/add.png" width="26" />
+                New Event
+              </a>
+            </li>
+            <li>
+              <a routerLink="./interceptor" routerLinkActive="active">
+                <img src="./assets/images/target.png" width="30" />
+                Live<br/>Interceptor
+              </a>
+            </li>
+            <li>
+              <a >
+                <img src="./assets/images/event.png" width="26" />
+                events
+              </a>
+            </li>
+            <li>
+              <a routerLink="./watchlist" routerLinkActive="active">
+                <img src="./assets/images/manager.png" width="30" />
+                WatchList
+              </a>
+            </li>
+            <li>
+              <a routerLink="./solved" routerLinkActive="active">
+                <img src="./assets/images/solved.png" width="24" />
+                Solved
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <section class="wrapper">
+        <router-outlet></router-outlet>
+      </section>
+    </div>
+</section>
+
+
+
+
+

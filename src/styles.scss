@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+
+.dFlex{
+  display:flex;
+  .flexChild{
+    flex:1 1;
+  }
+  .flexInit{
+    flex:initial;
+  }
+  
+}
+.dFlex.vCenter{
+  align-items: center;
+}
+.dFlex.hCenter{
+  justify-content: center;
+}
+*:focus{
+  outline: none;
+}

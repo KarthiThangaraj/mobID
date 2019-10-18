@@ -1,0 +1,121 @@
+<div class="solvedCont">
+  <div class="chartCont dFlex">
+    <div class="flexChild charts">
+      <div class="box">
+          <h5 class="title">Total Solved</h5>
+          <div class="dFlex">
+            <div class="flexChild dFlex vCenter hCenter">
+              <div class="dFlex" style="flex-direction:column">
+                <circle-progress
+                [percent]="75"
+                [radius]="38"
+                [outerStrokeWidth]="2"
+                [innerStrokeWidth]="0"
+                [outerStrokeColor]="'#B65358'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showSubtitle] = "false"
+              ></circle-progress>
+              <li class="terrorist">Terrorist</li>
+            </div>
+            </div>
+            
+            <div class="flexChild dFlex vCenter hCenter">
+                <div class="dFlex" style="flex-direction:column">
+                <circle-progress
+                [percent]="80"
+                [radius]="38"
+                [outerStrokeWidth]="2"
+                [innerStrokeWidth]="0"
+                [outerStrokeColor]="'#D29E16'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showSubtitle] = "false"
+              ></circle-progress>
+              <li class="criminal">Criminal</li>
+              </div>
+            </div>
+            <div class="flexChild dFlex vCenter hCenter">
+                <div class="dFlex" style="flex-direction:column">
+                <circle-progress
+                [percent]="60"
+                [radius]="38"
+                [outerStrokeWidth]="2"
+                [innerStrokeWidth]="0"
+                [outerStrokeColor]="'#78CBC3'"
+                [animation]="true"
+                [animationDuration]="300"
+                [showSubtitle] = "false"
+              ></circle-progress> 
+              <li class="missingPerson">Missing Person</li>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="ch">
+        <div class="outer">
+          <div class="box">
+              <h5 class="title">Urgency</h5>
+              <canvas id="barChart" height="90"></canvas>
+          </div>
+        </div>
+        <div class="outer">
+          <div class="box">
+              <h5 class="title">Un-Solved</h5>
+              <canvas id="lineChart" height="90"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gmap">
+      <div class="box">
+          <h5 class="title">Distribution by Type</h5>
+          <img src="assets/images/map.jpg">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="evTable">
+    <form>
+      <div class="tblHeader">
+        <h3>Events</h3>
+        <input type="text" placeholder="Event Name / ID"/>
+        <select>
+          <option>Category</option>
+        </select>
+        <select>
+          <option>Urgency</option>
+        </select>
+        <input type="text" placeholder="Date"/>
+        <input type="text" placeholder="Search from WatchList"/>
+        <button>Reset</button>
+      </div>
+    </form>
+
+    <div class="evRow">
+      <a class="btnBordered">E-00016</a>
+      <a class="icons"><img src="./assets/images/run.jpg" width="40"/></a>
+      <a class="btnBordered blueBordered upper">Missing Person</a>
+      <a class="btnBordered blueBordered blocked">High</a>
+      <p>Missing Event, 05/31/2016 06:07 PM</p>
+    </div>
+
+    <div class="evRow">
+      <a class="btnBordered">E-00017</a>
+      <a class="icons"><img src="./assets/images/run.jpg" width="40"/></a>
+      <a class="btnBordered redBordered upper">Terrorist</a>
+      <a class="btnBordered blueBordered">Medium</a>
+      <p>Bridge Blast Terrorist Event, 05/31/2016 06:15 PM</p>
+    </div>
+
+    <div class="evRow">
+      <a class="btnBordered">E-00017</a>
+      <a class="icons"><img src="./assets/images/run.jpg" width="40"/></a>
+      <a class="btnBordered yellowBordered upper">Criminal</a>
+      <a class="btnBordered blueBordered">Medium</a>
+      <p>Murdered Criminal Event, 06/02/2016 07:07 PM</p>
+    </div>
+
+  </div>
+</div>
